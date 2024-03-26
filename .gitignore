@@ -1,0 +1,10 @@
+# .gitignore
+
+/network-config/unencrypted
+/attic
+*.nixops-*
+.gems
+.mkdocs.*
+.confctl
+.*.swp
+configs/node/kernels.json

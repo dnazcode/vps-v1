@@ -1,0 +1,35 @@
+{
+  "nixpkgs": {
+    "type": "git-rev",
+    "nix_options": {
+      "fetchSubmodules": false,
+      "update": {
+        "auto": false,
+        "interval": 3600,
+        "ref": "refs/heads/nixos-unstable"
+      },
+      "url": "https://github.com/NixOS/nixpkgs"
+    },
+    "state": {
+      "rev": "0e74ca98a74bc7270d28838369593635a5db3260",
+      "date": "2024-02-21T16:03:59+01:00"
+    },
+    "info": {
+      "rev": "0e74ca98a74bc7270d28838369593635a5db3260",
+      "sha256": "09dkp21lkcadsxn1385dq740q62sbpr9vcrqxzyzah41qm7g8nw3"
+    },
+    "fetcher": {
+      "type": "git-rev",
+      "options": {
+        "rev": "0e74ca98a74bc7270d28838369593635a5db3260",
+        "wrapped_fetcher": {
+          "type": "zip",
+          "options": {
+            "url": "https://github.com/NixOS/nixpkgs/archive/0e74ca98a74bc7270d28838369593635a5db3260.tar.gz",
+            "sha256": "09dkp21lkcadsxn1385dq740q62sbpr9vcrqxzyzah41qm7g8nw3"
+          }
+        }
+      }
+    }
+  }
+}
